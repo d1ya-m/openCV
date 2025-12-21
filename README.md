@@ -8,11 +8,16 @@ The work focuses on turning tutorial-style concepts into **runnable, experiment-
 ---
 
 ## Project Structure
+
 ```
-.
-├── openCV_basics.ipynb
-├── openCV_basics2.ipynb
-└── README.md
+├── .ipynb_checkpoints/          # Jupyter notebook checkpoints (auto-generated)
+├── openCV/                      # ignore
+├── test_images/                 # Test images for OpenCV functions
+├── .gitignore                   # Git ignore file
+├── README.md                    
+├── openCV_basics.ipynb          
+└── openCV_basics2.ipynb         
+
 ```
 
 * `openCV_basics.ipynb` — Introduction to OpenCV operations and image handling
